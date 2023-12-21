@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <title class="logo">bon appétit</title>
+      <div class="box">
+        <div class="button">SUBSCRIBE</div>
+        <div class="button">SIGN IN</div>
+        <div class="button">NEWSLETTER</div>
+      </div>
+    </div>
+
+    <div class="navbox">
+      <div class="navbutton">RECIPES</div>
+      <div class="navbutton">INGREDIENTS</div>
+      <div class="navbutton">COOKING</div>
+      <div class="navbutton">CULTURE</div>
+      <div class="navbutton">SHOPPING</div>
+    </div>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      .box {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        width: 25%;
+        height: 150px;
+        background-color: black;
+        padding: 15px;
+        align-content: start;
+      }
+
+      .logo {
+        display: flex;
+        width: 50%;
+        height: 150px;
+        background-color: black;
+        padding: 20px;
+        font-size: 5em;
+        font-family: "Times New Roman", Times, serif;
+        color: white;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        width: 25%;
+        height: 150px;
+        background-color: black;
+        padding: 25px;
+      }
+
+      .navbutton {
+        display: flex;
+        width: 100px;
+        height: 50px;
+        font-size: 1.3em;
+        color: white;
+        padding: 15px;
+        justify-content: center;
+      }
+
+      .button {
+        display: flex;
+        width: 100px;
+        height: 50px;
+        font-size: 1.3em;
+        color: yellow;
+        padding: 15px;
+        justify-content: center;
+      }
+
+      .container {
+        display: flex;
+        height: 150px;
+        border: 1px solid black;
+        margin-bottom: 1.5px;
+      }
+
+      .navbox {
+        display: flex;
+        height: 80px;
+        background-color: black;
+        justify-content: start;
+        align-items: end;
+        padding: 15px;
+      }
+    </style>
+  </body>
+</html>
