@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  background: black;
+}
+
+.box {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  background-color: black;
+  padding: 15px;
+  align-content: start;
+}
+
+.nav-links {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+  font-size: 5em;
+  font-family: "outfit", sans-serif;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: black;
+  padding: 25px;
+}
+
+.navbutton {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  font-size: 1.3em;
+  font-family: outfit, sans-serif;
+  color: white;
+  padding: 15px;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  font-size: 1.3em;
+  font-family: outfit, sans-serif;
+  color: yellow;
+  padding: 15px;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  border: 1px solid black;
+  justify-content: flex-end;
+}
+
+.navbox {
+  display: flex;
+  border-top: 1px solid white;
+  background-color: black;
+  justify-content: start;
+  align-items: end;
+  padding: 15px;
+}
